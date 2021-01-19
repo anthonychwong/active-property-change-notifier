@@ -1,0 +1,15 @@
+name: active_property_change_notifier_generator
+description: Code generator to use with active_property_change_notifier.
+version: "0.0.1-alpha"
+homepage: https://anthonychwong.netlify.app/
+repository: https://github.com/anthonychwong/active-property-change-notifier
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  analyzer: "0.39.15" # Pin the analyzer version to work around generatiuon failure
+  build: ^1.3.0
+  build_config: ^0.4.0
+  source_gen: ^0.9.0
+  active_property_change_notifier: "0.0.1-alpha"

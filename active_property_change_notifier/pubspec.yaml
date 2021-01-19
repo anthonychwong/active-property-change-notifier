@@ -1,0 +1,11 @@
+name: active_property_change_notifier
+description: Actively pushes changes of itself and nested objects, including which property is changed, values before and after.
+version: "0.0.1-alpha"
+homepage: https://anthonychwong.netlify.app/
+repository: https://github.com/anthonychwong/active-property-change-notifier
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  meta: ^1.2.3

@@ -1,0 +1,11 @@
+name: example
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  active_property_change_notifier: "0.0.1-alpha"
+
+dev_dependencies:
+  build_runner: 
+  active_property_change_notifier_generator: "0.0.1-alpha"

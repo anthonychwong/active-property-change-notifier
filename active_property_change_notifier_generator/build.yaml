@@ -1,0 +1,8 @@
+builders:
+  property_change_notifier:
+    import: "package:active_property_change_notifier_generator/builder.dart"
+    builder_factories: ["propertyChangeNotifier"]
+    build_extensions: {".dart": [".active_property_change_notifier.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
